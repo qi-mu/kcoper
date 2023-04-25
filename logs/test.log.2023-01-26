@@ -1,0 +1,2558 @@
+2023-01-26 13:46:05.805 INFO [main] kyligence.Main : application start,new process id is : 51224
+2023-01-26 13:46:05.818 INFO [pool-1-thread-1] kyligence.Main : res.json file is not exit,now create it
+2023-01-26 13:46:06.530 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 13:46:06.530 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 15:38:44.118 INFO [main] kyligence.Main : application start,new process id is : 53284
+2023-01-26 15:38:44.963 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 3955cddb-6ab6-4a57-807b-43d7c5b142b7
+2023-01-26 15:38:44.966 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:3955cddb-6ab6-4a57-807b-43d7c5b142b7\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 15:20:30\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 07:20:36 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 15:38:46.503 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 15:38:46.503 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 23636e6d-a52c-4ae8-8a57-6670618bf4d2
+2023-01-26 15:38:46.503 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:23636e6d-a52c-4ae8-8a57-6670618bf4d2\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:57:40\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:21min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:57:45 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mCode=OSProvisioningTimedOut Message=OS Provisioning for VM 'ngbidevq9TC-build-sparkworker0' did "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 15:38:47.204 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 15:38:47.204 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: badc0b30-be8f-4a1c-8f19-13910290909a
+2023-01-26 15:38:47.205 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:badc0b30-be8f-4a1c-8f19-13910290909a\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:55:23\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:55:30 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mcompute.VirtualMachinesClient#CreateOrUpdate: Failure sending request: StatusCode=0 -- Original Er "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 15:38:47.851 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 15:38:47.851 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 7616e2b4-cdde-4101-908b-0513ef14be25
+2023-01-26 15:38:47.853 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:7616e2b4-cdde-4101-908b-0513ef14be25\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:53:06\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:53:14 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:31:52.161 INFO [main] kyligence.Main : application start,new process id is : 54521
+2023-01-26 16:32:14.839 INFO [main] kyligence.Main : application start,new process id is : 54531
+2023-01-26 16:34:10.884 INFO [main] kyligence.Main : application start,new process id is : 54553
+2023-01-26 16:34:22.838 INFO [main] kyligence.Main : application start,new process id is : 54557
+2023-01-26 16:34:23.530 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 3955cddb-6ab6-4a57-807b-43d7c5b142b7
+2023-01-26 16:34:23.532 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:3955cddb-6ab6-4a57-807b-43d7c5b142b7\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 15:20:30\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 07:20:36 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:24.641 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:24.641 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 23636e6d-a52c-4ae8-8a57-6670618bf4d2
+2023-01-26 16:34:24.642 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:23636e6d-a52c-4ae8-8a57-6670618bf4d2\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:57:40\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:21min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:57:45 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mCode=OSProvisioningTimedOut Message=OS Provisioning for VM 'ngbidevq9TC-build-sparkworker0' did "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:25.194 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:25.194 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: badc0b30-be8f-4a1c-8f19-13910290909a
+2023-01-26 16:34:25.195 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:badc0b30-be8f-4a1c-8f19-13910290909a\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:55:23\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:55:30 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mcompute.VirtualMachinesClient#CreateOrUpdate: Failure sending request: StatusCode=0 -- Original Er "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:25.880 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:25.880 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 7616e2b4-cdde-4101-908b-0513ef14be25
+2023-01-26 16:34:25.881 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:7616e2b4-cdde-4101-908b-0513ef14be25\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:53:06\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:53:14 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:26.502 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:26.503 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: dbc64fc3-983c-40d3-84ac-91843d205772
+2023-01-26 16:34:26.503 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:dbc64fc3-983c-40d3-84ac-91843d205772\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:50:49\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:50:54 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:27.065 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:27.068 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 7dfd1a13-df28-4885-a2ea-adc1e2813549
+2023-01-26 16:34:27.068 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:7dfd1a13-df28-4885-a2ea-adc1e2813549\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:48:32\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:48:39 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:27.710 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:27.710 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 9bdae706-57b7-491e-913b-ebae4a708433
+2023-01-26 16:34:27.711 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:9bdae706-57b7-491e-913b-ebae4a708433\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:46:15\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:46:24 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:28.365 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:28.365 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 4b8fbdd5-6116-4b8b-9858-fc9cc6193b60
+2023-01-26 16:34:28.366 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:4b8fbdd5-6116-4b8b-9858-fc9cc6193b60\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:43:58\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:44:03 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:29.008 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:29.009 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 228ad95b-7cdc-42ce-98fe-ee3d0138aa42
+2023-01-26 16:34:29.009 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:228ad95b-7cdc-42ce-98fe-ee3d0138aa42\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:41:41\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:41:48 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:29.576 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:29.576 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 71fefc77-27f9-40b3-a8b7-5e51bee9c63f
+2023-01-26 16:34:29.577 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:71fefc77-27f9-40b3-a8b7-5e51bee9c63f\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:39:24\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:39:33 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:30.145 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:30.146 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 83240869-b64c-436b-be31-b87a21ddb570
+2023-01-26 16:34:30.146 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:83240869-b64c-436b-be31-b87a21ddb570\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:37:07\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:37:13 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:30.683 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:30.683 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: a1fa0495-49ff-4681-9009-58082b4f9c7c
+2023-01-26 16:34:30.683 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:a1fa0495-49ff-4681-9009-58082b4f9c7c\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:34:50\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:34:57 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:31.243 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:31.243 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 2e0d8191-3f7f-40c5-8bf5-1b1d472c271f
+2023-01-26 16:34:31.243 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:2e0d8191-3f7f-40c5-8bf5-1b1d472c271f\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:32:33\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:32:42 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:31.818 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:31.818 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 7c217e2b-3de7-4e79-80b2-6649f0008df6
+2023-01-26 16:34:31.818 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:7c217e2b-3de7-4e79-80b2-6649f0008df6\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:30:16\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:30:22 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:32.424 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:32.424 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: a57603e1-492e-448a-a6be-4bb67e9a6d84
+2023-01-26 16:34:32.425 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:a57603e1-492e-448a-a6be-4bb67e9a6d84\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:27:59\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:28:06 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:32.994 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:32.994 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 5dfa6ea9-5be0-42b2-9092-e68ab0d9f1d7
+2023-01-26 16:34:32.994 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:5dfa6ea9-5be0-42b2-9092-e68ab0d9f1d7\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:25:42\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:25:51 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:33.555 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:33.556 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: cdd90bd1-8d0a-410c-85d8-594b26f18812
+2023-01-26 16:34:33.556 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:cdd90bd1-8d0a-410c-85d8-594b26f18812\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:23:25\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:23:31 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:34.186 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:34.187 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 86206f61-6f0e-4dc5-9b36-07f8ced98aae
+2023-01-26 16:34:34.188 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:86206f61-6f0e-4dc5-9b36-07f8ced98aae\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:21:08\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:21:15 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:34.902 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:34.903 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 755b9340-09a0-4a56-99d3-74af7ea36d3e
+2023-01-26 16:34:34.903 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:755b9340-09a0-4a56-99d3-74af7ea36d3e\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:18:51\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:19:00 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:35.445 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:35.445 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: cf62a9ca-5c4a-4162-973c-089d9872baba
+2023-01-26 16:34:35.446 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbidev\n\n**id**:cf62a9ca-5c4a-4162-973c-089d9872baba\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 14:16:34\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 1
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 06:16:40 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mA resource with the ID /subscriptions/9de90380-089b-4aeb-8db0-01068286f9d5/resourceGroups/RG-Test "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:34:36.004 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:34:36.014 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:34:36.014 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:35:22.339 INFO [main] kyligence.Main : application start,new process id is : 54584
+2023-01-26 16:35:23.101 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: e7d11a78-c870-400b-a7fc-07d78df4da6d
+2023-01-26 16:35:23.105 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:e7d11a78-c870-400b-a7fc-07d78df4da6d\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:50:39\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 2
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:50:44 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-2-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:24.148 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:24.148 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 39d70f6a-104c-44d1-8987-cdb0cca52f3d
+2023-01-26 16:35:24.149 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:39d70f6a-104c-44d1-8987-cdb0cca52f3d\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:48:22\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:48:29 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:24.772 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:24.772 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 0018cca7-8365-4b5a-87fe-ac9f38ba84d3
+2023-01-26 16:35:24.772 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:0018cca7-8365-4b5a-87fe-ac9f38ba84d3\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:46:05\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:46:14 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:25.434 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:25.434 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 16679571-e5c1-454b-ade3-350fc12d075b
+2023-01-26 16:35:25.435 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:16679571-e5c1-454b-ade3-350fc12d075b\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:43:48\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:43:53 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:26.072 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:26.073 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: b7dacd36-d187-4bdf-bfa1-caa43bd0d921
+2023-01-26 16:35:26.073 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:b7dacd36-d187-4bdf-bfa1-caa43bd0d921\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:41:31\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:41:38 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:26.615 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:26.617 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 19cda2a7-2d6b-40af-aefd-80271fe6e595
+2023-01-26 16:35:26.618 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:19cda2a7-2d6b-40af-aefd-80271fe6e595\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:39:14\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:39:18 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:27.274 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:27.274 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 27e754db-e7dd-43db-b000-be18c8347715
+2023-01-26 16:35:27.275 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:27e754db-e7dd-43db-b000-be18c8347715\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:36:57\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:37:03 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:27.801 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:27.801 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 313db7d3-e1d7-4e17-a5b8-320a19c3ac90
+2023-01-26 16:35:27.802 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:313db7d3-e1d7-4e17-a5b8-320a19c3ac90\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:34:40\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:34:48 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:28.361 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:28.362 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 4150ae0f-2172-458b-8bcc-ecb8b882d854
+2023-01-26 16:35:28.362 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:4150ae0f-2172-458b-8bcc-ecb8b882d854\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:32:23\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:32:27 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:28.997 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:28.998 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 6a100052-c3d2-4de6-85cc-8d567c3962cd
+2023-01-26 16:35:28.998 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:6a100052-c3d2-4de6-85cc-8d567c3962cd\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:30:06\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:30:12 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:29.644 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:29.644 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 4ff0a2f6-2912-4d74-ad6b-389a144c1ee1
+2023-01-26 16:35:29.644 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:4ff0a2f6-2912-4d74-ad6b-389a144c1ee1\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:27:49\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:27:57 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:30.197 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:30.197 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 35d958da-8acd-486b-b4f8-c5745e26bb15
+2023-01-26 16:35:30.198 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:35d958da-8acd-486b-b4f8-c5745e26bb15\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:25:32\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:25:37 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:30.876 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:30.877 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 7a21f336-5bb1-461a-986c-4074616ca695
+2023-01-26 16:35:30.877 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:7a21f336-5bb1-461a-986c-4074616ca695\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:23:15\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:23:22 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:31.510 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:31.511 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: e153fab2-ab00-41aa-84d1-b913d7dca5fb
+2023-01-26 16:35:31.511 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:e153fab2-ab00-41aa-84d1-b913d7dca5fb\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:20:58\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:21:06 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:32.132 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:32.132 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 9e37f3d3-4988-4e6d-8413-adb477c39148
+2023-01-26 16:35:32.133 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:9e37f3d3-4988-4e6d-8413-adb477c39148\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:18:41\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:18:46 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:32.669 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:32.670 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 9e6671a1-cda2-464d-8a89-d3e63eb2a062
+2023-01-26 16:35:32.670 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:9e6671a1-cda2-464d-8a89-d3e63eb2a062\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:16:24\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:16:31 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:33.268 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:33.268 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: d3c4571a-d837-4919-8470-4c6ab69a2845
+2023-01-26 16:35:33.269 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:d3c4571a-d837-4919-8470-4c6ab69a2845\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:14:07\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:14:11 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:33.885 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:33.885 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 7a0919d4-312a-44f7-ae6e-6d43d323edb3
+2023-01-26 16:35:33.885 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:7a0919d4-312a-44f7-ae6e-6d43d323edb3\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:11:50\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:11:56 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:34.480 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:34.481 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 160d15ea-a58d-4cc8-99af-ee737a6c06ac
+2023-01-26 16:35:34.481 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:160d15ea-a58d-4cc8-99af-ee737a6c06ac\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:09:33\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:09:41 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:35.102 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:35.103 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: c7a11ae8-d9e1-406e-9c0c-132cf16d1b8c
+2023-01-26 16:35:35.103 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:c7a11ae8-d9e1-406e-9c0c-132cf16d1b8c\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-26 13:07:16\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:0min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/26 05:07:21 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mdeleting Network Interface: (Name ngbiprdHvtZ-build-sparkworker0-3-nic / Resource Group RG-PRD- "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 16:35:35.701 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 16:35:35.716 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:35:35.717 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:36:22.741 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:36:22.742 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:36:22.742 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:37:22.717 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:37:22.718 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:37:22.718 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:38:22.728 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:38:22.730 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:38:22.748 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:39:22.712 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:39:22.712 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:39:22.712 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:40:22.685 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:40:22.686 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:40:22.686 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:41:22.703 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:41:22.704 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:41:22.704 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:42:22.799 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:42:22.799 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:42:22.799 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 16:43:22.781 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 16:43:22.781 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 16:43:22.781 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 17:16:58.765 INFO [main] kyligence.Main : application start,new process id is : 55148
+2023-01-26 17:16:59.513 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 17:16:59.514 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 17:16:59.514 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 17:17:07.272 INFO [main] kyligence.Main : application start,new process id is : 55154
+2023-01-26 17:17:08.162 INFO [pool-1-thread-1] kyligence.Main : there has no error events,to write current success
+2023-01-26 17:17:08.162 INFO [pool-1-thread-1] kyligence.Main : get operations success
+2023-01-26 17:17:08.162 INFO [pool-1-thread-1] kyligence.Main : sign is : 1 ok
+2023-01-26 17:19:02.854 INFO [main] kyligence.Main : application start,new process id is : 55183
+2023-01-26 17:19:02.862 INFO [main] kyligence.Main : body: 
+2023-01-26 17:19:04.028 INFO [main] kyligence.Main : send message done: {"code":19002,"data":{},"msg":"params error, msg_type need"}
+2023-01-26 17:45:42.719 INFO [main] kyligence.Main : application start,new process id is : 55377
+2023-01-26 17:45:42.724 INFO [main] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"elements": [{
+			"tag": "column_set",
+			"flex_mode": "none",
+			"background_style": "default",
+			"columns": []
+		}, {
+			"tag": "column_set",
+			"flex_mode": "none",
+			"background_style": "grey",
+			"columns": [{
+				"tag": "column",
+				"width": "weighted",
+				"weight": 1,
+				"vertical_align": "top",
+				"elements": [{
+					"tag": "markdown",
+					"content": "**🐱：**test",
+					"text_align": "left"
+				}, {
+					"tag": "column_set",
+					"flex_mode": "none",
+					"background_style": "default",
+					"columns": []
+				}]
+			}]
+		}],
+		"header": {
+			"template": "red",
+			"title": {
+				"content": "Test",
+				"tag": "plain_text"
+			}
+		}
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-26 17:45:44.052 INFO [main] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-26 17:46:06.123 INFO [main] kyligence.Main : application start,new process id is : 55384
+2023-01-26 17:53:51.672 INFO [main] kyligence.Main : application start,new process id is : 55524
+2023-01-26 17:55:12.803 INFO [main] kyligence.Main : application start,new process id is : 55535
+2023-01-26 17:56:51.204 INFO [main] kyligence.Main : application start,new process id is : 55575

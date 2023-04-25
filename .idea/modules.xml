@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kcoper/kcapi.iml" filepath="$PROJECT_DIR$/kcoper/kcapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kcoper.iml" filepath="$PROJECT_DIR$/kcoper.iml" />
+    </modules>
+  </component>
+</project>

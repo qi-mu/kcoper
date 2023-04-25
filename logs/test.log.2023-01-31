@@ -1,0 +1,224 @@
+2023-01-31 10:24:22.236 INFO [main] kyligence.Main : application start,new process id is : 76100
+2023-01-31 10:24:22.763 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 1970e5df-72d7-499a-8e59-ce3e85c6ea9c
+2023-01-31 10:24:22.765 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:1970e5df-72d7-499a-8e59-ce3e85c6ea9c\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-29 11:47:25\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:7min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback scale out cluster succeeds.
+Task failed
+Error details:
+2023/01/29 03:47:31 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mcompute.VirtualMachinesClient#CreateOrUpdate: Failure sending request: StatusCode=0 - "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-31 10:24:23.652 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-31 10:24:23.652 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 07219a33-175a-47c0-a036-b4d01780b7e8
+2023-01-31 10:24:23.652 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:07219a33-175a-47c0-a036-b4d01780b7e8\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-29 11:38:17\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:7min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/29 03:38:22 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mcompute.VirtualMachinesClient#CreateOrUpdate: Failure sending request: StatusCode=0 -- Original Er "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-31 10:24:24.107 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-31 10:24:24.107 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 1e1b209d-0d83-4e88-94db-5047d8bdbeec
+2023-01-31 10:24:24.107 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:1e1b209d-0d83-4e88-94db-5047d8bdbeec\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-29 11:29:09\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:7min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/29 03:29:14 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mcompute.VirtualMachinesClient#CreateOrUpdate: Failure sending request: StatusCode=0 -- Original Er "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
+2023-01-31 10:24:24.705 INFO [pool-1-thread-1] kyligence.Main : send message done: {"StatusCode":0,"StatusMessage":"success"}
+2023-01-31 10:24:24.705 INFO [pool-1-thread-1] kyligence.Main : there has error events,to send messages,id is: 95393fc3-83cc-45cc-90a6-6c4d2f921dc8
+2023-01-31 10:24:24.705 INFO [pool-1-thread-1] kyligence.Main : body: {
+	"msg_type": "interactive",
+	"card": {
+		"config": {
+			"wide_screen_mode": true
+		},
+		"header": {
+			"template": "blue",
+			"title": {
+				"tag": "plain_text",
+				"content": "AZ Dev WorkSpace Event Alert"
+			}
+		},
+		"elements": [{
+			"tag": "markdown",
+			"content": "<at id=all></at>"
+		}, {
+			"tag": "div",
+			"fields": [{
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Information：** \n\n**clusterName**:ngbiprd\n\n**id**:95393fc3-83cc-45cc-90a6-6c4d2f921dc8\n\n**status**:ERROR\n\n**ncreateTime**:2023-01-29 11:20:52\n\n**operator**:SYSTEM\n\n**deployErrorType**:terraform_command\n\n**operation**:Scale out Build Cluster\n\n**runningTime**:7min "				}
+			}, {
+				"is_short": true,
+				"text": {
+					"tag": "lark_md",
+					"content": "**Error message：**\nWrite cluster resize from 0 to 3
+Cluster action: BUILD_SCALE_OUT start
+terraform process start
+Cluster rollback scale out...
+Rollback cluster failed
+Task failed
+Error details:
+2023/01/29 03:20:59 [WARN] Log levels other than TRACE are currently unreliable, and are supported only for backward compatibility.
+  Use TF_LOG=TRACE to see Terraform's internal logs.
+  ----
+[31m
+[1m[31mError: [0m[0m[1mcompute.VirtualMachinesClient#CreateOrUpdate: Failure sending request: StatusCode=0 -- Original Er "
+				}
+			}]
+		}, {
+			"tag": "hr"
+		}, {
+			"tag": "note",
+			"elements": [{
+				"tag": "plain_text",
+				"content": "support by kyligence.io"
+			}]
+		}]
+	},
+	"mock_data": "{}",
+	"variables": []
+}
